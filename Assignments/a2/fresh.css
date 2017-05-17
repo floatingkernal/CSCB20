@@ -1,0 +1,122 @@
+body {
+	font-family: Verdana, Tahoma, Sans-serif;
+	font-size: 8pt
+	padding: 0px;
+	margin: 0px;
+}
+.banner {
+	background-repeat: repeat-x;
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+h1 {
+	text-align: center;
+	font-size: 32pt;
+	font-family: Verdana, Tahoma, Sans-serif;
+	font-weight: bold;
+	text-shadow: 3px 3px #999999;
+}
+.overall-content {
+	width: 800px;
+	display: block;
+	margin: auto;
+	text-align: center;
+	border: 4px solid grey;
+	border-radius: 20px;
+	overflow: hidden;
+	position: relative;
+}
+.left-section {
+	width: 550px;
+	text-align: left;
+	margin: 0;
+	position: relative;
+}
+.fresh {
+	background-repeat: repeat-x;
+	font-size: 48pt;
+	color: red;
+	height: 83px;
+}
+.reviews {
+	display: inline-flex;
+	padding: 1% 0 0;
+}
+
+.review{
+	margin-bottom: 3em;
+}
+
+.quote {
+	background: #e8dc9b;
+	border: 2px solid grey;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 8pt;
+	padding: 8px;
+}
+.rattingpic {
+	float: left;
+	margin: 0px 5px;
+}
+#lsec {
+	width: 47%;
+	margin: 0 1%;
+	float: left;
+	position: relative;
+}
+#rsec {
+	width: 47%;
+	margin: 0 1%;
+	float: right;
+	position: relative;
+
+}
+.criticpic {
+	float: left;
+	margin: 0px 5px;
+}
+.critic {
+	font-size: 8pt;
+}
+.info {
+	width: 250px;
+	padding: 10pt 10pt 10pt 10pt;
+	font-size: 8pt;
+	font-family: Arial, Sans-serif;
+	text-align: left;
+
+}
+.general {
+	width: 250px;
+	float: right;
+	height: 100%;
+	background: #a2b964;
+	position: relative;
+	z-index: 1000;
+}
+.general img {
+	width: 100%;
+}
+dt {
+	font-weight: bold;
+	padding: 1em 0em;
+}
+dd {
+	padding: 1%;
+}
+.bottom {
+	background-color: #a2b964;
+	padding: 5px;
+	position: absolute;
+	vertical-align: bottom;
+	width: inherit;
+	bottom: 0;
+}
+.w3c {
+	opacity: 0.6;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}

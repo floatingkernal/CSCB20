@@ -1,0 +1,25 @@
+html {
+	text-align: center;
+	background-color: #ddd 
+}
+body {
+	border: 20px solid #000088;
+	background-color: white;
+
+}
+#frame {
+		width: auto;
+}
+h2 {
+	color: #000090;
+}
+th {
+	background-color: #ddd; 
+}
+#table {
+	border: 2px solid white;
+	/* margin: 10px; */
+	width: 100%;
+	padding: 10px;
+
+}
